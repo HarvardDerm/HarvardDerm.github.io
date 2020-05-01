@@ -1,0 +1,95 @@
+<HTML>
+<HEADER>
+	<TITLE> RO PHONE - BWH </TITLE>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+</HEADER>
+<style>
+		    body {
+                font-family: Helvetica, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica; 
+                font-size: 14px;
+                margin:0px;
+                -webkit-user-select: none;
+		    }
+		    a { color:#0091FF; font-weight: bold;}
+		    div { border: 0px solid red }
+		    div.name { width:200px; float:left; color:#000 }
+		    div.number { margin-left:auto; margin-right:0px; color:#0091FF; width:120px; text-align:right; font-weight:bold;}
+		    a { text-decoration:none; font-size: 14px;}
+		    div.row { display:block; padding:4px; border-bottom: 1px solid #ddd; }
+		    div.header { background-color: #eee; font-weight: bolder; padding-left: 8px;border-bottom: 1px solid #ddd;}
+		    div.footer a { font-size: 12px; }
+		    div.footer { background-color: #eee; text-align: center; padding:8px; font-size: 17px; }
+		    div.footer a { font-size: 12px; }
+		    div.row:active { background-color:#ddd; }
+		    img.icon { width:14px; }
+		    span.jones { color:#4e387e; font-weight: bold; }
+		    a.comment { color:#fff; font-size: smaller; background-color:#bbb; border-radius:14px; padding:0 8px 2px 8px;}
+		    span.floor { display:inline-block; width:22px; height:22px; color:#fff; background-color:#bbb; border-radius:20px; text-align: center; }
+		    input{padding:0px;margin:0px;border:0px;display:inline-block;webkit-appearance:none;font-size:14px;width:100px;border-radius:0px;color:#0091FF; text-align:right; font-weight:bold;background-color:transparent;}
+		    input:invalid{background-color:#fdd;}
+</style>
+<script>
+        window.addEventListener('load', function() {
+            FastClick.attach(document.body);
+        }, false);
+        
+        function tryDialExtension(event) {
+            var ext = document.getElementById('ext').value.replace(/\D/g, '');
+            if(ext.length == 5) location.href='tel:6177325500,2' + ext + '#';
+            else if(ext == '0') location.href='tel:6177325500,0#';
+        }
+        
+   		</script>
+<BODY>
+<div class="header">MGH</div>
+
+<div class="row">
+		<div class="name" onclick="location.href='tel:6177325500';"><img src="BWH_Tight.png" class="icon"> Dial Extension x3 (617-64...)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtension(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="row">
+		<div class="name" onclick="location.href='tel:6177325500';"><img src="BWH_Tight.png" class="icon"> Dial Extension x4 (617-72...)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtension(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="row">
+		<div class="name" onclick="location.href='tel:6177325500';"><img src="BWH_Tight.png" class="icon"> Dial Extension x6 (617-72...)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtension(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="row">
+		<div class="name" onclick="location.href='tel:6177325500';"><img src="BWH_Tight.png" class="icon"> Dial Extension x8 (857-23...)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtension(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6176433344';">
+		<div class="name"><img src="BWH_Tight.png" class="icon"> Phone Interpreter</div>
+    	<div class="number">33344</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177266966';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> IPOP Translation Service</div>
+    	<div class="number">66966</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177263613';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Microbiology - Bigelow 5</div>
+    	<div class="number">63613</div>
+	</div>
+
+<div class="footer">
+	
+	<a href="mailto:Lauren&lt;laurennko@gmail.com&gt;?subject=BWH Derm%20Phone%20Idea">💌 Message Lauren With Suggestions </a>
+	&nbsp;
+
+</BODY>
+
+
+</HTML>
