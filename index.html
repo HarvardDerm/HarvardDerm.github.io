@@ -21,6 +21,7 @@
 		    div { border: 0px solid red }
 		    div.name { width:200px; float:left; color:#000 }
 		    div.number { margin-left:auto; margin-right:0px; color:#0091FF; width:120px; text-align:right; font-weight:bold;}
+		    div.text { margin-left:auto; margin-right:0px; color:#000; width:120px; text-align:right; }
 		    a { text-decoration:none; font-size: 14px;}
 		    div.row { display:block; padding:4px; border-bottom: 1px solid #ddd; }
 		    div.header { background-color: #eee; font-weight: bolder; padding-left: 8px;border-bottom: 1px solid #ddd;}
@@ -50,6 +51,11 @@
 <BODY>
 <div class="header">MGH</div>
 
+<div class="row" onclick="location.href='tel:6177262000';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Main Line</div>
+    	<div class="number">62000</div>
+	</div>
+
 <div class="row">
 		<div class="name" onclick="location.href='tel:6177325500';"><img src="BWH_Tight.png" class="icon"> Dial Extension x3 (617-64...)</div>
     	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtension(event);" autocomplete="off" /></div>
@@ -70,8 +76,28 @@
     	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtension(event);" autocomplete="off" /></div>
 	</div>
 
+<div class="row" onclick="location.href='tel:6177244100';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Emergency Department</div>
+    	<div class="number">44100</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177263613';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Microbiology</div>
+    	<div class="number">63613</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177263861';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Pathology</div>
+    	<div class="number">63861</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177263820';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Virology</div>
+    	<div class="number">63820</div>
+	</div>
+
 <div class="row" onclick="location.href='tel:6176433344';">
-		<div class="name"><img src="BWH_Tight.png" class="icon"> Phone Interpreter</div>
+		<div class="name"><img src="interpreter.png" class="icon"> Phone Interpreter</div>
     	<div class="number">33344</div>
 	</div>
 
@@ -80,10 +106,265 @@
     	<div class="number">66966</div>
 	</div>
 
-<div class="row" onclick="location.href='tel:6177263613';">
-		<div class="name"><img src="DFCI_Tight.png" class="icon"> Microbiology - Bigelow 5</div>
-    	<div class="number">63613</div>
+<div class="row" onclick="location.href='tel:6177265085';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> IT Help Desk</div>
+    	<div class="number">65085</div>
 	</div>
+
+<div class="row" onclick="location.href='tel:6177262914';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Outpatient Clinic</div>
+    	<div class="number">62914</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> After Hours Path Pager </div>
+    	<div class="text">p23305</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Micro Drop Off </div>
+    	<div class="text">Gray 5</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Path Drop Off </div>
+    	<div class="text">Ellison 3</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Follow Up Appointments </div>
+    	<div class="text">Epic Referral</div>
+	</div>
+
+
+<div class="header">BWH</div>
+
+
+<div class="row" onclick="location.href='tel:6177325500';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Main Line</div>
+    	<div class="number">25500</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177326660';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Paging Operator</div>
+    	<div class="number">26660</div>
+	</div>
+
+<div class="row">
+		<div class="name" onclick="location.href='tel:6177325500';"><img src="BWH_Tight.png" class="icon"> Dial Extension (617-73...)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtension(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177325636';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Emergency Department</div>
+    	<div class="number">25636</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177327383';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Microbiology</div>
+    	<div class="number">27383</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177327510';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Pathology</div>
+    	<div class="number">27510</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177326639';">
+		<div class="name"><img src="interpreter.png" class="icon"> Phone Interpreter</div>
+    	<div class="number">26639</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177325927';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> IT Help Desk</div>
+    	<div class="number">25927</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177324918';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Outpatient Clinic</div>
+    	<div class="number">24918</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> After Hours Path Pager </div>
+    	<div class="text">p11601</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Micro Drop Off </div>
+    	<div class="text">Lab Control 2nd Fl</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Path Drop Off </div>
+    	<div class="text">Amory 2</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Follow Up Appintments </div>
+    	<div class="text">Email</div>
+	</div>
+
+
+<div class="header">BIDMC</div>
+
+<div class="row" onclick="location.href='tel:6176677000';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Main Line</div>
+    	<div class="number">77000</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177542400';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Emergency Department</div>
+    	<div class="number">42400</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6176672306';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Microbiology</div>
+    	<div class="number">72306</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6176674344';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Pathology</div>
+    	<div class="number">74344</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6176673018';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Virology</div>
+    	<div class="number">73018</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6176674011';">
+		<div class="name"><img src="interpreter.png" class="icon"> Phone Interpreter</div>
+    	<div class="number">74011</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177548080';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> IT Help Desk</div>
+    	<div class="number">48080</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6176673753';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Outpatient Clinic</div>
+    	<div class="number">73753</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> After Hours Path Pager </div>
+    	<div class="text">p32094</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Micro Drop Off </div>
+    	<div class="text">Rabb 3</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Path Drop Off </div>
+    	<div class="text">Sherman 1 (PM: Rabb 3)</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Follow Up Appointments </div>
+    	<div class="text">Email</div>
+	</div>
+
+
+<div class="header">Children's</div>
+
+<div class="row" onclick="location.href='tel:6173556000';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Main Line</div>
+    	<div class="number">56000</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6173556369';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Paging Operator</div>
+    	<div class="number">56369</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6173556611';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Emergency Department</div>
+    	<div class="number">56611</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6173557485';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Microbiology</div>
+    	<div class="number">57485</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6173557431';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Pathology</div>
+    	<div class="number">57431</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6173557624';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Virology</div>
+    	<div class="number">57624</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6173557198';">
+		<div class="name"><img src="interpreter.png" class="icon"> Phone Interpreter</div>
+    	<div class="number">57198</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6179194357';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> IT Help Desk</div>
+    	<div class="number">94357</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6173556117';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Outpatient Clinic</div>
+    	<div class="number">56117</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Micro Drop Off </div>
+    	<div class="text">Farley 8</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Path Drop Off </div>
+    	<div class="text">Bader 1 (PM: Farley 7)</div>
+	</div>
+
+<div class="row">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Follow Up Appointments </div>
+    	<div class="text">Email</div>
+	</div>
+
+
+<div class="header">VAMC</div>
+
+<div class="row" onclick="location.href='tel:6173237700';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> West Rox Main Line</div>
+    	<div class="number">37700</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6172329500';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> JP Main Line</div>
+    	<div class="number">29500</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:8556734357';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> IT Help Desk</div>
+    	<div class="number">34357</div>
+	</div>
+
+
+<div class="header">MEEI</div>
+
+<div class="row" onclick="location.href='tel:6175237900,,0';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> Main Line</div>
+    	<div class="number">37900</div>
+	</div>
+
+
+
+
+
+
+
+
+
 
 
 <div class="footer">
