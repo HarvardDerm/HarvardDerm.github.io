@@ -50,6 +50,12 @@
             else if(ext == '0') location.href='tel:6177325500,0#';
         }
         
+ 	function tryDialExtensionMGH(event) {
+            var ext = document.getElementById('ext').value.replace(/\D/g, '');
+            if(ext.length == 5) location.href='tel:+161772' + ext;
+            else if(ext == '0') location.href='tel:6177325500,0#';
+        }
+        
 
    		</script>
 <BODY>
@@ -70,6 +76,7 @@
     	<div class="text">-</div>
 	</div>
 
+
 <div class="subrow" >
 		<div class="name">  x4 = 617-72- ____</div>
     	<div class="text">-</div>
@@ -78,6 +85,11 @@
 <div class="subrow" >
 		<div class="name">  x6 = 617-72- ____</div>
     	<div class="text">-</div>
+	</div>
+
+<div class="subrow">
+		<div class="name" onclick="location.href='tel:6177262000';"><img src="phone.jpg" class="icon"> Dial Extension (617-72...)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGH(event);" autocomplete="off" /></div>
 	</div>
 
 <div class="subrow" >
