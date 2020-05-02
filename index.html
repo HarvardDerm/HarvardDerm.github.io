@@ -50,28 +50,29 @@
             else if(ext == '0') location.href='tel:6177325500,0#';
         }
         
+
 function tryDialExtensionMGH(event) {
-            var ext = document.getElementById('ext').value.replace(/\D/g, '');
-            if(ext.length == 5) location.href='tel:+161764' + ext;
-            else if(ext == '0') location.href='tel:6177262000';
+            var extt = document.getElementById('extt').value.replace(/\D/g, '');
+            if(extt.length == 5) location.href='tel:+161764' + ext;
+            else if(extt == '0') location.href='tel:6177262000';
         }
 
 function tryDialExtensionMGHH(event) {
-            var ext = document.getElementById('ext').value.replace(/\D/g, '');
-            if(ext.length == 5) location.href='tel:+161772' + ext;
-            else if(ext == '0') location.href='tel:6177262000';
+            var exttt = document.getElementById('exttt').value.replace(/\D/g, '');
+            if(exttt.length == 5) location.href='tel:+161772' + ext;
+            else if(exttt == '0') location.href='tel:6177262000';
         }
 
 function tryDialExtensionMGHHH(event) {
-            var ext = document.getElementById('ext').value.replace(/\D/g, '');
-            if(ext.length == 5) location.href='tel:+161772' + ext;
-            else if(ext == '0') location.href='tel:6177262000';
+            var extttt = document.getElementById('extttt').value.replace(/\D/g, '');
+            if(extttt.length == 5) location.href='tel:+161772' + ext;
+            else if(extttt == '0') location.href='tel:6177262000';
         }
 
 function tryDialExtensionMGHHHH(event) {
-            var ext = document.getElementById('ext').value.replace(/\D/g, '');
-            if(ext.length == 5) location.href='tel:+185723' + ext;
-            else if(ext == '0') location.href='tel:6177262000';
+            var exttttt = document.getElementById('exttttt').value.replace(/\D/g, '');
+            if(exttttt.length == 5) location.href='tel:+185723' + ext;
+            else if(exttttt == '0') location.href='tel:6177262000';
         }
         
 
@@ -92,22 +93,22 @@ function tryDialExtensionMGHHHH(event) {
 
 <div class="subrow">
 		<div class="name" onclick="location.href='tel:6177262000';"> Extension Starting With 3</div>
-    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGH(event);" autocomplete="off" /></div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="extt" placeholder="Ext #" onkeyup="tryDialExtensionMGH(event);" autocomplete="off" /></div>
 	</div>
 
 <div class="subrow">
 		<div class="name" onclick="location.href='tel:6177262000';"> Extension Starting With 4</div>
-    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGHH(event);" autocomplete="off" /></div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="exttt" placeholder="Ext #" onkeyup="tryDialExtensionMGHH(event);" autocomplete="off" /></div>
 	</div>
 
 <div class="subrow">
 		<div class="name" onclick="location.href='tel:6177262000';"> Extension Starting With 6</div>
-    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGHHH(event);" autocomplete="off" /></div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="extttt" placeholder="Ext #" onkeyup="tryDialExtensionMGHHH(event);" autocomplete="off" /></div>
 	</div>
 
 <div class="subrow">
 		<div class="name" onclick="location.href='tel:6177262000';"> Extension Starting With 8</div>
-    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGHHHH(event);" autocomplete="off" /></div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="exttttt" placeholder="Ext #" onkeyup="tryDialExtensionMGHHHH(event);" autocomplete="off" /></div>
 	</div>
 
 
