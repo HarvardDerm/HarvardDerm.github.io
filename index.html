@@ -50,22 +50,25 @@
             else if(ext == '0') location.href='tel:6177325500,0#';
         }
         
-function tryDialExtensionMGH3(event) {
+function tryDialExtensionMGH(event) {
             var ext = document.getElementById('ext').value.replace(/\D/g, '');
             if(ext.length == 5) location.href='tel:+161764' + ext;
             else if(ext == '0') location.href='tel:6177262000';
         }
-function tryDialExtensionMGH4(event) {
+
+function tryDialExtensionMGHH(event) {
             var ext = document.getElementById('ext').value.replace(/\D/g, '');
             if(ext.length == 5) location.href='tel:+161772' + ext;
             else if(ext == '0') location.href='tel:6177262000';
         }
-function tryDialExtensionMGH6(event) {
+
+function tryDialExtensionMGHHH(event) {
             var ext = document.getElementById('ext').value.replace(/\D/g, '');
             if(ext.length == 5) location.href='tel:+161772' + ext;
             else if(ext == '0') location.href='tel:6177262000';
         }
-function tryDialExtensionMGH8(event) {
+
+function tryDialExtensionMGHHHH(event) {
             var ext = document.getElementById('ext').value.replace(/\D/g, '');
             if(ext.length == 5) location.href='tel:+185723' + ext;
             else if(ext == '0') location.href='tel:6177262000';
@@ -89,22 +92,22 @@ function tryDialExtensionMGH8(event) {
 
 <div class="subrow">
 		<div class="name" onclick="location.href='tel:6177262000';"> Extension Starting With 3</div>
-    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGH3(event);" autocomplete="off" /></div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGH(event);" autocomplete="off" /></div>
 	</div>
 
 <div class="subrow">
 		<div class="name" onclick="location.href='tel:6177262000';"> Extension Starting With 4</div>
-    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGH4(event);" autocomplete="off" /></div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGHH(event);" autocomplete="off" /></div>
 	</div>
 
 <div class="subrow">
 		<div class="name" onclick="location.href='tel:6177262000';"> Extension Starting With 6</div>
-    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGH6(event);" autocomplete="off" /></div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGHHH(event);" autocomplete="off" /></div>
 	</div>
 
 <div class="subrow">
 		<div class="name" onclick="location.href='tel:6177262000';"> Extension Starting With 8</div>
-    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGH8(event);" autocomplete="off" /></div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtensionMGHHHH(event);" autocomplete="off" /></div>
 	</div>
 
 
