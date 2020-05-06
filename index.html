@@ -91,6 +91,32 @@ function tryDialExtensionBCH8(event) {
             if(BCH8.length == 5) location.href='tel:+185721' + BCH8;
             else if(BCH8 == '0') location.href='tel:6173556000';
         }
+
+function tryDialExtensionBI2(event) {
+            var BI2 = document.getElementById('BI2').value.replace(/\D/g, '');
+            if(BI2.length == 5) location.href='tel:+161763' + BI2;
+            else if(BI2 == '0') location.href='tel:6176677000';
+        }
+        
+function tryDialExtensionBI4(event) {
+            var BI4 = document.getElementById('BI4').value.replace(/\D/g, '');
+            if(BI4.length == 5) location.href='tel:+161775' + BI4;
+            else if(BI4 == '0') location.href='tel:6176677000';
+        }
+        
+function tryDialExtensionBI5(event) {
+            var BI5 = document.getElementById('BI5').value.replace(/\D/g, '');
+            if(BI5.length == 5) location.href='tel:+161797' + BI5;
+            else if(BI5 == '0') location.href='tel:6176677000';
+        }
+
+function tryDialExtensionBI7(event) {
+            var BI7 = document.getElementById('BI7').value.replace(/\D/g, '');
+            if(BI7.length == 5) location.href='tel:+161766' + BI7;
+            else if(BI7 == '0') location.href='tel:6176677000';
+        }
+        
+        
         
 
    		</script>
@@ -267,6 +293,32 @@ function tryDialExtensionBCH8(event) {
 <div class="row" onclick="location.href='tel:6176677000';">
 		<div class="name"><img src="bidmclogo.jpg" class="icon"> Main Line</div>
     	<div class="number">77000</div>
+	</div>
+
+<div class="row" >
+		<div class="name"><img src="phone.jpg" class="icon"> Dial Extensions</div>
+    	<div class="text"> -</div>
+	</div>
+
+
+<div class="subrow">
+		<div class="name" onclick="location.href='tel:6177262000';"> Ext starting with 2 &ensp;(617-632-____)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="BI2" placeholder="Ext #" onkeyup="tryDialExtensionBI2(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="subrow">
+		<div class="name" onclick="location.href='tel:6177262000';"> Ext starting with 4 &ensp;(617-754-____)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="BI4" placeholder="Ext #" onkeyup="tryDialExtensionBI4(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="subrow">
+		<div class="name" onclick="location.href='tel:6177262000';"> Ext starting with 5 &ensp;(617-975-____)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="BI5" placeholder="Ext #" onkeyup="tryDialExtensionBI5(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="subrow">
+		<div class="name" onclick="location.href='tel:6177262000';"> Ext starting with 7 &ensp;(617-667-____)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="BI7" placeholder="Ext #" onkeyup="tryDialExtensionBI7(event);" autocomplete="off" /></div>
 	</div>
 
 <div class="row" onclick="location.href='tel:6177542400,1';">
